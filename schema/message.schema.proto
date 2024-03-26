@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "github.com/starRMS/pubsub-x-protobuff/schema";
+
+message SunTerraDeviceMessage {
+  string name = 1;
+  string username = 2;
+  int64 status = 3;
+}
